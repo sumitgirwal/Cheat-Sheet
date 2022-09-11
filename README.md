@@ -41,6 +41,29 @@ int main() {
 	return 0;
 }
 ```
+##### 6. Always use string to input digits
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
 
+int32_t main() {
+    int t; cin >> t;
+    while (t--) {
+		int d; string n; 
+		cin>>d; cin>>n;  
+		bool flag=false;
+		for(int i=0;i<d;i++){	
+			if(n[i]=='5' ||n[i]=='0')
+			{ flag=true;
+				break;
+			}
+		}		
+		if(flag) cout<<"YES"<<endl;
+		else cout<<"NO"<<endl;	
+    }
+    return 0;
+}
+```
 
 
