@@ -66,4 +66,30 @@ int32_t main() {
 }
 ```
 
+###### long long
+```bash
+#include <iostream>
+#include <vector>
+using namespace std;
+#define ll long long
+#define int ll
+int32_t main() {
+    int t; cin >> t;
+    while (t--) {
+			int n; cin>>n;
+			vector<int> a(n);
+			for(int i=0;i<n;i++) cin>>a[i];
+			int count=0;
+			int temp=0;
+			for(int i=0;i<n;i++){
+				int x; cin>>x;
+				if(x<=(a[i]-temp)) count++;
+				temp = a[i];
+			}
+			cout<<count<<endl;
+    }
+    return 0;
+}
+
+```
 
