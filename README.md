@@ -93,3 +93,11 @@ int32_t main() {
 
 ```
 
+Input:
+    string bin_string = "10101010";
+
+    Function call:
+    stoi(bin_string, 0, 2);
+
+    Output:
+    170
