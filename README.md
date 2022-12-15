@@ -3,6 +3,7 @@ CPP Cheat Sheet for CP
 
 #### Resources
 - [Learn CP](https://github.com/hkirat/Algorithmic-Resources)
+- [Learn Sorting](https://lamfo-unb.github.io/2019/04/21/Sorting-algorithms/)
 
 #### 1. 10^9 long long
 #### 2. Sum of 1 to n even & odd numbers
@@ -104,3 +105,6 @@ Input:
 
     Output:
     170
+````
+
+
