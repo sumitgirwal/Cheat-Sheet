@@ -107,4 +107,63 @@ Input:
     170
 ````
 
+#include<bits/stdc++.h>
+using namespace std;
 
+int32_t main()
+{
+    // input
+    string str;
+    getline(cin,str);
+    
+    int t = str.size();
+    map<char,int> mp;
+    
+    // processing
+    for(int i=0; i<t; i++) {
+        if(str[i]!=' ') {
+            mp[str[i]]++;
+        }
+    }
+    
+    //output
+    for(auto i:mp) {
+        cout << i.first << " = " << i.second << " ";
+    }
+    return 0;
+}
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	// input
+    string str;
+    getline(cin,str);
+    
+    int n = str.size();
+    string final="";
+    string temp="";
+    
+    // processing
+    for(int i=0; i<n; i++){
+        
+        if(str[i]==' '){
+            final = " "+temp+final;
+			temp = "";
+        }else{
+            temp = temp+str[i];
+        }
+    }
+
+    if(temp != " "){
+        final = " "+temp+final;
+    }
+
+    // output    
+    cout<<final<<endl;
+
+	return 0;
+}
