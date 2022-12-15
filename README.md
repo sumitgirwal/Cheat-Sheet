@@ -1,6 +1,9 @@
 # Cheat-Sheet
 CPP Cheat Sheet for CP
 
+#### Resources
+- [Learn CP](https://github.com/hkirat/Algorithmic-Resources)
+
 #### 1. 10^9 long long
 #### 2. Sum of 1 to n even & odd numbers
 ```bash
